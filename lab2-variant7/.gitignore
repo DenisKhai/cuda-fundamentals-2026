@@ -1,0 +1,6 @@
+/lab2
+__pycache__/
+/report/benchmark
+/report/cpu
+/report/work/
+lab2.cu.asc
