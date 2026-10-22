@@ -18,3 +18,4 @@ cd cuda-fundamentals-2026
 - [Домашнее задание №2](homework2/README.md)
 - [Лабораторная работа №1, вариант 4](lab1-variant4/README.md)
 - [Лабораторная работа №2, вариант 7](lab2-variant7/README.md)
+- [Лабораторная работа №3, вариант 4](lab3-variant4/README.md)
