@@ -1,0 +1,6 @@
+/work/
+/lab3
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*.o

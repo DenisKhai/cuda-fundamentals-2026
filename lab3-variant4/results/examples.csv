@@ -1,0 +1,6 @@
+name,width,height,classes,cpu_errors,numpy_errors,rgb_errors
+spectral-brightness,480,270,3,0,0,0
+spectral-shapes,480,270,4,0,0,0
+spectral-noise,480,240,4,0,0,0
+04,3,3,2,0,0,0
+09,8,8,5,0,0,0
