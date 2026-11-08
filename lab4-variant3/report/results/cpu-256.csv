@@ -1,0 +1,2 @@
+mode,n,grid_x,grid_y,block_x,block_y,repeats,warmup,cpu_checks,gpu_checks,cpu_ms,gpu_ms,speedup,cpu_rel_error,cpu_scaled_residual,gpu_rel_error,gpu_scaled_residual,errors
+cpu,256,,,,,5,100,105,0,3.657573,,,2.03012210217e-15,9.48032734006e-16,,,0

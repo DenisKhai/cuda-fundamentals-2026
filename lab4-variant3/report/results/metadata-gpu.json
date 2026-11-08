@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-11-08T13:04:54.523419+00:00",
+  "status": "complete",
+  "mode": "gpu",
+  "measurements_status": "complete",
+  "arguments": {
+    "cpu_only": false,
+    "sizes": [
+      32,
+      256,
+      1024
+    ],
+    "repeats": 5,
+    "warmup": 100,
+    "profile": true,
+    "profile_size": 256,
+    "nvcc": "/usr/local/cuda-12.8/bin/nvcc",
+    "arch": "sm_61"
+  },
+  "result_files": [
+    "benchmark-32.csv",
+    "benchmark-256.csv",
+    "benchmark-1024.csv"
+  ],
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu_model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+  "profile_status": "complete",
+  "cxx_version": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "nvcc_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:23:50_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+  "device_info": "Модель\tNVIDIA GeForce GTX 1050\nCompute capability\t6.1\nCUDA runtime\t12080\nCUDA driver\t12080\nГлобальная память, байт\t3158114304\nРазделяемая память на блок, байт\t49152\nКонстантная память, байт\t65536\nРегистров на блок\t65536\nМаксимум потоков на блок\t1024\nРазмеры блока (x, y, z)\t1024 x 1024 x 64\nРазмеры сетки (x, y, z)\t2147483647 x 65535 x 65535\nМультипроцессоров\t6\n",
+  "profile_log": "nvprof-256.log",
+  "profile_output": "Profiled solver passed: relative_error=2.03012e-15, scaled_residual=9.48033e-16",
+  "finished_utc": "2026-11-08T13:11:15.556086+00:00"
+}

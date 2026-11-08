@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-11-08T13:04:55.589701+00:00",
+  "status": "complete",
+  "mode": "cpu",
+  "measurements_status": "complete",
+  "arguments": {
+    "cpu_only": true,
+    "sizes": [
+      32,
+      256,
+      1024
+    ],
+    "repeats": 5,
+    "warmup": 100,
+    "profile": false,
+    "profile_size": 256,
+    "nvcc": "/usr/local/cuda-12.8/bin/nvcc",
+    "arch": "sm_61"
+  },
+  "result_files": [
+    "cpu-32.csv",
+    "cpu-256.csv",
+    "cpu-1024.csv"
+  ],
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu_model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+  "cxx_version": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "finished_utc": "2026-11-08T13:05:34.183929+00:00"
+}
