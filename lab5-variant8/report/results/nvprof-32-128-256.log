@@ -1,0 +1,10 @@
+==59637== NVPROF is profiling process 59637, command: ./work/benchmark 32 1 100 4096 --profile 128 256
+==59637== Profiling application: ./work/benchmark 32 1 100 4096 --profile 128 256
+==59637== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   72.02%  168.71us        32  5.2720us  5.1850us  5.4080us  scan_blocks(unsigned int const *, unsigned int*, unsigned int*, unsigned int, int)
+                   27.98%  65.540us        32  2.0480us  2.0160us  2.1130us  scatter(unsigned int const *, unsigned int*, unsigned int const *, unsigned int, int)
+      API calls:   95.58%  786.94us        64  12.295us  6.1110us  62.602us  cudaLaunchKernel
+                    2.69%  22.124us        64     345ns     144ns     648ns  cudaGetLastError
+                    1.16%  9.5150us         1  9.5150us  9.5150us  9.5150us  cudaDeviceSynchronize
+                    0.58%  4.7530us         1  4.7530us  4.7530us  4.7530us  cuDeviceGetCount

@@ -1,0 +1,6 @@
+/work/
+/lab5
+*.pdf
+*.asc
+__pycache__/
+.ipynb_checkpoints/

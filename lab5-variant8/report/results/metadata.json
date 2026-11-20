@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-17T14:27:01.719378+00:00",
+  "arguments": {
+    "sizes": [
+      32,
+      1048576,
+      128000000
+    ],
+    "repeats": 5,
+    "warmup": 100,
+    "warmup_size": 4096,
+    "profile": true,
+    "nvcc": "nvcc",
+    "arch": "sm_61"
+  },
+  "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.35",
+  "result_files": [
+    "benchmark-32.csv",
+    "benchmark-1048576.csv",
+    "benchmark-128000000.csv"
+  ],
+  "profile_files": [
+    "nvprof-32-1-32.log",
+    "nvprof-32-32-128.log",
+    "nvprof-32-128-256.log",
+    "nvprof-32-256-256.log",
+    "nvprof-32-1024-1024.log",
+    "nvprof-1048576-1-32.log",
+    "nvprof-1048576-32-128.log",
+    "nvprof-1048576-128-256.log",
+    "nvprof-1048576-256-256.log",
+    "nvprof-1048576-1024-1024.log",
+    "nvprof-128000000-32-128.log",
+    "nvprof-128000000-128-256.log",
+    "nvprof-128000000-256-256.log",
+    "nvprof-128000000-1024-1024.log"
+  ],
+  "cpu_model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+  "ram_kib": 16250032,
+  "logical_cpus": 12,
+  "nvcc_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:23:50_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0",
+  "cxx_version": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "gpu_driver": "NVIDIA GeForce GTX 1050, 570.211.01",
+  "disks": [
+    {
+      "name": "sda",
+      "model": "WDC WD10SPZX-24Z10",
+      "size": 1000204886016,
+      "rota": true,
+      "type": "disk"
+    },
+    {
+      "name": "nvme0n1",
+      "model": "HFM256GDHTNG-8310A",
+      "size": 256060514304,
+      "rota": false,
+      "type": "disk"
+    }
+  ],
+  "device_info": "Модель\tNVIDIA GeForce GTX 1050\nCompute capability\t6.1\nCUDA runtime\t12080\nCUDA driver\t12080\nГлобальная память, байт\t3158114304\nРазделяемая память на блок, байт\t49152\nКонстантная память, байт\t65536\nРегистров на блок\t65536\nМаксимум потоков на блок\t1024\nРазмеры блока (x, y, z)\t1024 x 1024 x 64\nРазмеры сетки (x, y, z)\t2147483647 x 65535 x 65535\nМультипроцессоров\t6\n",
+  "tests": {
+    "cpu": "Пройдено тестов: 24 (включая пример из ZIP).\nПроверок ошибочного ввода: 6.\nВсе тесты пройдены успешно.",
+    "gpu": "Пройдено тестов: 24 (включая пример из ZIP).\nПроверок ошибочного ввода: 6.\nВсе тесты пройдены успешно."
+  },
+  "profile_status": "partial",
+  "finished_utc": "2026-11-17T15:36:26.290197+00:00"
+}
