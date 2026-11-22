@@ -21,3 +21,4 @@ cd cuda-fundamentals-2026
 - [Лабораторная работа №3, вариант 4](lab3-variant4/README.md)
 - [Лабораторная работа №4, вариант 3](lab4-variant3/README.md)
 - [Лабораторная работа №5, вариант 8](lab5-variant8/README.md)
+- [Лабораторная работа №6](lab6/README.md)
